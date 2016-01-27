@@ -3,9 +3,12 @@ from numpy import array as np_array
 from numpy import asarray as np_asarray
 from numpy import linalg as np_linalg
 from numpy import eye as np_eye
-import os, math
+import os, math, sys
 
-task_info=open('task_info','r')
+argv = sys.argv
+argv = argv[argv.index("--") + 1:]
+
+task_info=open(argv[0],'r')
 #task_info=open('/home/tuanfeng/Documents/smart_texture/code/depth_buffer/task_info','r')
 
 task_info_ = task_info.read().splitlines()

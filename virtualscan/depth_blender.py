@@ -1,5 +1,5 @@
-#   blender -b depth.blend -P depth_blender.py > log
-# /Applications/blender.app/Contents/MacOS/blender -b depth.blend -P depth_blender.py > log
+#   blender -b depth.blend -P depth_blender.py > log --task_info.haosu
+# /Applications/blender.app/Contents/MacOS/blender -b depth.blend -P depth_blender.py > log -- task_info.tuanfeng
 
 import bpy
 import os
@@ -14,7 +14,10 @@ from subprocess import Popen
 #change scene name to yours
 Scenename = 'Scene'
 
-task_info=open('task_info','r')
+argv = sys.argv
+argv = argv[argv.index("--") + 1:]
+
+task_info=open(argv[0],'r')
 #task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info','r')
 
 
@@ -133,7 +136,7 @@ for i in range(1, 2 * S + 1):
 	f.write(str(bpy.data.objects['Camera'].rotation_axis_angle[0])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[1])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[2])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[3])+'\n')
 	f.close()
 
-	process_sp = Popen("python process_sp.py".split())
+	process_sp = Popen(("python process_sp.py -- "+argv[0]).split())
 	process_sp.communicate()
 
 	shutil_move(task_info_[1]+'/tmp_c1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_c.png')
