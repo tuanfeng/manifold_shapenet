@@ -1,4 +1,5 @@
 #   blender -b depth.blend -P depth_blender.py > log
+# /Applications/blender.app/Contents/MacOS/blender -b depth.blend -P depth_blender.py > log
 
 import bpy
 import os
@@ -14,8 +15,9 @@ from subprocess import Popen
 Scenename = 'Scene'
 
 task_info=open('task_info','r')
-#task_info=open('/home/tuanfeng/Documents/smart_texture/code/depth_buffer/task_info','r')
-#task_info=open('/Users/tuanfeng/Documents/ResearchWork/project_2/code/depth_buffer/task_info_mac','r')
+#task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info','r')
+
+
 
 task_info_ = task_info.read().splitlines();
 print("task info: ", task_info_)
@@ -43,6 +45,10 @@ bpy.data.scenes[Scenename].render.use_antialiasing = True
 bpy.data.scenes[Scenename].render.use_full_sample = True
 
 bpy.ops.import_scene.obj(filepath=task_info_[0],use_split_groups=False)
+
+bpy.context.scene.objects.active = bpy.data.objects[1]
+bpy.ops.object.join()
+
 obj_name = os.path.splitext(os.path.basename(task_info_[0]))[0]
 
 if not os.path.exists(task_info_[1]+'/'+obj_name+'_cd/'): os.makedirs(task_info_[1]+'/'+obj_name+'_cd/')
@@ -60,12 +66,12 @@ vertex_max_x = float("-inf")
 vertex_max_y = float("-inf")
 vertex_max_z = float("-inf")
 
-vertex_num = float(len(bpy.data.meshes[obj_name].vertices))
+vertex_num = float(len(bpy.data.objects[1].data.vertices))
 
 vert_dis = float(0)
 
 #centering
-for vertex in bpy.data.meshes[obj_name].vertices:
+for vertex in bpy.data.objects[1].data.vertices:
 	vertex_avg_x = vertex_avg_x + vertex.co[0] / vertex_num
 	vertex_avg_y = vertex_avg_y + vertex.co[1] / vertex_num
 	vertex_avg_z = vertex_avg_z + vertex.co[2] / vertex_num
@@ -76,14 +82,14 @@ for vertex in bpy.data.meshes[obj_name].vertices:
 	vertex_max_y = max(vertex_max_y,vertex.co[1])
 	vertex_max_z = max(vertex_max_z,vertex.co[2])
 
-for vertex in bpy.data.meshes[obj_name].vertices:
+for vertex in bpy.data.objects[1].data.vertices:
 	vertex.co[0] = (vertex.co[0] - vertex_avg_x)
 	vertex.co[1] = (vertex.co[1] - vertex_avg_y)
 	vertex.co[2] = (vertex.co[2] - vertex_avg_z)
 	vert_dis = max(vert_dis, math.pow(math.pow(vertex.co[0],2)+math.pow(vertex.co[1],2)+math.pow(vertex.co[2],2),0.5))
 
 #scaling
-for vertex in bpy.data.meshes[obj_name].vertices:
+for vertex in bpy.data.objects[1].data.vertices:
 	vertex.co[0] = vertex.co[0]/vert_dis/1.01
 	vertex.co[1] = vertex.co[1]/vert_dis/1.01
 	vertex.co[2] = vertex.co[2]/vert_dis/1.01

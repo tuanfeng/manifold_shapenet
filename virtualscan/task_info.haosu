@@ -7,9 +7,9 @@
 
 
 
-#obj_file_path		/home/tuanfeng/Documents/car_data/obj_wt_300/car_obj_wt_002/
-#image_output_path		_c.png; _d00*.png
-#surfp_output_path		xxx.sp
+#obj_file_path		
+#image_output_path		
+#surfp_output_path	
 #resolution_x
 #resolution_y
 #samples of cameras
