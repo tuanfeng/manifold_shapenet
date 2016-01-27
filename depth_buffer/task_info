@@ -1,0 +1,15 @@
+/orions4-zfs/projects/haosu/codebase/geometryprocessing/models/model.obj
+/orions4-zfs/projects/haosu/codebase/geometryprocessing/models/tmp
+/orions4-zfs/projects/haosu/codebase/geometryprocessing/models/virtualscan
+300
+300
+20
+
+
+
+#obj_file_path		/home/tuanfeng/Documents/car_data/obj_wt_300/car_obj_wt_002/
+#image_output_path		_c.png; _d00*.png
+#surfp_output_path		xxx.sp
+#resolution_x
+#resolution_y
+#samples of cameras
