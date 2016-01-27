@@ -1,4 +1,4 @@
-#   blender -b depth.blend -P depth_blender.py > log --task_info.haosu
+#   blender -b depth.blend -P depth_blender.py > log -- task_info.haosu
 # /Applications/blender.app/Contents/MacOS/blender -b depth.blend -P depth_blender.py > log -- task_info.tuanfeng
 
 import bpy
