@@ -18,9 +18,7 @@ argv = sys.argv
 argv = argv[argv.index("--") + 1:]
 
 task_info=open(argv[0],'r')
-#task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info','r')
-
-
+#task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info.tuanfeng','r')
 
 task_info_ = task_info.read().splitlines();
 print("task info: ", task_info_)
@@ -37,9 +35,9 @@ bpy.data.scenes[Scenename].render.use_overwrite = True
 bpy.context.scene.render.engine = "BLENDER_RENDER"
 
 
-bpy.data.scenes[0].node_tree.nodes[3].base_path = task_info_[1]+'/tmp_c1/'
-bpy.data.scenes[0].node_tree.nodes[4].base_path = task_info_[1]+'/tmp_d1/'
-
+bpy.data.scenes[0].node_tree.nodes[0].base_path = task_info_[1]+'/tmp_c1/'
+bpy.data.scenes[0].node_tree.nodes[3].base_path = task_info_[1]+'/tmp_d1/'
+bpy.data.scenes[0].node_tree.nodes[11].base_path = task_info_[1]+'/tmp_n1/'
 
 
 #bpy.data.scenes[Scenename].cycles.samples = int(task_info_[5])
@@ -49,8 +47,20 @@ bpy.data.scenes[Scenename].render.use_full_sample = True
 
 bpy.ops.import_scene.obj(filepath=task_info_[0],use_split_groups=False)
 
-bpy.context.scene.objects.active = bpy.data.objects[1]
-bpy.ops.object.join()
+if bpy.data.objects[0].name != 'Camera' and bpy.data.objects[0].name != 'Point':
+	bpy.context.scene.objects.active = bpy.data.objects[0]
+	bpy.ops.object.join()
+	objid = 0
+
+if bpy.data.objects[1].name != 'Camera' and bpy.data.objects[1].name != 'Point':
+	bpy.context.scene.objects.active = bpy.data.objects[1]
+	bpy.ops.object.join()
+	objid = 1
+
+if bpy.data.objects[2].name != 'Camera' and bpy.data.objects[2].name != 'Point':
+	bpy.context.scene.objects.active = bpy.data.objects[2]
+	bpy.ops.object.join()
+	objid = 2
 
 obj_name = os.path.splitext(os.path.basename(task_info_[0]))[0]
 
@@ -69,12 +79,12 @@ vertex_max_x = float("-inf")
 vertex_max_y = float("-inf")
 vertex_max_z = float("-inf")
 
-vertex_num = float(len(bpy.data.objects[1].data.vertices))
+vertex_num = float(len(bpy.data.objects[objid].data.vertices))
 
 vert_dis = float(0)
 
 #centering
-for vertex in bpy.data.objects[1].data.vertices:
+for vertex in bpy.data.objects[objid].data.vertices:
 	vertex_avg_x = vertex_avg_x + vertex.co[0] / vertex_num
 	vertex_avg_y = vertex_avg_y + vertex.co[1] / vertex_num
 	vertex_avg_z = vertex_avg_z + vertex.co[2] / vertex_num
@@ -85,14 +95,14 @@ for vertex in bpy.data.objects[1].data.vertices:
 	vertex_max_y = max(vertex_max_y,vertex.co[1])
 	vertex_max_z = max(vertex_max_z,vertex.co[2])
 
-for vertex in bpy.data.objects[1].data.vertices:
+for vertex in bpy.data.objects[objid].data.vertices:
 	vertex.co[0] = (vertex.co[0] - vertex_avg_x)
 	vertex.co[1] = (vertex.co[1] - vertex_avg_y)
 	vertex.co[2] = (vertex.co[2] - vertex_avg_z)
 	vert_dis = max(vert_dis, math.pow(math.pow(vertex.co[0],2)+math.pow(vertex.co[1],2)+math.pow(vertex.co[2],2),0.5))
 
 #scaling
-for vertex in bpy.data.objects[1].data.vertices:
+for vertex in bpy.data.objects[objid].data.vertices:
 	vertex.co[0] = vertex.co[0]/vert_dis/1.01
 	vertex.co[1] = vertex.co[1]/vert_dis/1.01
 	vertex.co[2] = vertex.co[2]/vert_dis/1.01
@@ -109,6 +119,9 @@ sp_vert_num = 0
 
 if os.path.isfile(task_info_[2]+'/'+obj_name+'.off'):
 	os.remove(task_info_[2]+'/'+obj_name+'.off')
+if os.path.isfile(task_info_[2]+'/'+obj_name+'.obj'):
+	os.remove(task_info_[2]+'/'+obj_name+'.obj')
+
 
 for i in range(1, 2 * S + 1):
 	ui = math.asin(1 - float(2*i-1)/float(2*S))
@@ -141,6 +154,7 @@ for i in range(1, 2 * S + 1):
 
 	shutil_move(task_info_[1]+'/tmp_c1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_c.png')
 	shutil_move(task_info_[1]+'/tmp_d1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_d.png')
+	shutil_move(task_info_[1]+'/tmp_n1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_n.png')
 
 
 

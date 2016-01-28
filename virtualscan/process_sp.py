@@ -54,19 +54,28 @@ Rot[2][2] = cosi+uz*uz*(1-cosi)
 
 dir_up = [Rot[0][1],Rot[1][1],Rot[2][1]]
 dir_ri = [Rot[0][0],Rot[1][0],Rot[2][0]]
+dir_o = [dir_vector_x,dir_vector_y,dir_vector_z]
+
 #print np_linalg.norm(dir_up), np_linalg.norm(dir_ri)
 #print(dir_up[0]*dir_ri[0]+dir_up[1]*dir_ri[1]+dir_up[2]*dir_ri[2])
 
 image_c_path = task_info_[1]+'/tmp_c1/Image0001.png'
 image_d_path = task_info_[1]+'/tmp_d1/Image0001.png'
+image_n_path = task_info_[1]+'/tmp_n1/Image0001.png'
 image_c_ori = Image.open(image_c_path, 'r')
 image_d_ori = Image.open(image_d_path, 'r')
+image_n_ori = Image.open(image_n_path, 'r')
 image_c = np_asarray(image_c_ori)
 image_d = np_asarray(image_d_ori)
+image_n = np_asarray(image_n_ori)
+
 
 sp_file_path = task_info_[2]+'/'+obj_name+'.off'
+nl_file_path = task_info_[2]+'/'+obj_name+'.obj'
 
 fout = open(sp_file_path,'a')
+nout = open(nl_file_path,'a')
+
 
 for pi in range(0,image_c_ori.size[0]):
 	for pj in range(0,image_c_ori.size[1]):
@@ -97,4 +106,21 @@ for pi in range(0,image_c_ori.size[0]):
 			real_pos_z = camera_pos_z + pixel_plan_pos_z + pixel_depth * dir_vector_z
 			fout.write(str(real_pos_x)+' '+str(real_pos_y)+' '+str(real_pos_z)+' '+str(pixel_color[0])+' '+str(pixel_color[1])+' '+str(pixel_color[2])+'\n')
 
+			normal_color = image_n[pi,pj]
+			ncr = float(normal_color[0])/255.*2.-1. # -1 ~ 1
+			ncg = float(normal_color[1])/255.*2.-1.
+			if ncr*ncr+ncg*ncg > 1:
+				sncrncg = 0
+			else:
+				sncrncg = 1-ncr*ncr-ncg*ncg
+
+			nct = math.sqrt(sncrncg)
+			nm0 = -ncr * dir_ri[0] + -ncg * dir_up[0] + -nct * dir_o[0]
+			nm1 = -ncr * dir_ri[1] + -ncg * dir_up[1] + -nct * dir_o[1]
+			nm2 = -ncr * dir_ri[2] + -ncg * dir_up[2] + -nct * dir_o[2]
+
+			nout.write('v '+str(real_pos_x)+' '+str(real_pos_y)+' '+str(real_pos_z)+'\n')
+			nout.write('vn '+str(nm0)+' '+str(nm1)+' '+str(nm2)+'\n')
+
 fout.close()
+nout.close()
