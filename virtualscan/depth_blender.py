@@ -119,8 +119,8 @@ sp_vert_num = 0
 
 if os.path.isfile(task_info_[2]+'/'+obj_name+'.off'):
 	os.remove(task_info_[2]+'/'+obj_name+'.off')
-if os.path.isfile(task_info_[2]+'/'+obj_name+'.obj'):
-	os.remove(task_info_[2]+'/'+obj_name+'.obj')
+if os.path.isfile(task_info_[2]+'/'+obj_name+'.normal'):
+	os.remove(task_info_[2]+'/'+obj_name+'.normal')
 
 
 for i in range(1, 2 * S + 1):

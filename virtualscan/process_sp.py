@@ -71,7 +71,7 @@ image_n = np_asarray(image_n_ori)
 
 
 sp_file_path = task_info_[2]+'/'+obj_name+'.off'
-nl_file_path = task_info_[2]+'/'+obj_name+'.obj'
+nl_file_path = task_info_[2]+'/'+obj_name+'.normal'
 
 fout = open(sp_file_path,'a')
 nout = open(nl_file_path,'a')
@@ -107,20 +107,26 @@ for pi in range(0,image_c_ori.size[0]):
 			fout.write(str(real_pos_x)+' '+str(real_pos_y)+' '+str(real_pos_z)+' '+str(pixel_color[0])+' '+str(pixel_color[1])+' '+str(pixel_color[2])+'\n')
 
 			normal_color = image_n[pi,pj]
+
 			ncr = float(normal_color[0])/255.*2.-1. # -1 ~ 1
 			ncg = float(normal_color[1])/255.*2.-1.
+			
 			if ncr*ncr+ncg*ncg > 1:
 				sncrncg = 0
 			else:
 				sncrncg = 1-ncr*ncr-ncg*ncg
+
+			
 
 			nct = math.sqrt(sncrncg)
 			nm0 = -ncr * dir_ri[0] + -ncg * dir_up[0] + -nct * dir_o[0]
 			nm1 = -ncr * dir_ri[1] + -ncg * dir_up[1] + -nct * dir_o[1]
 			nm2 = -ncr * dir_ri[2] + -ncg * dir_up[2] + -nct * dir_o[2]
 
-			nout.write('v '+str(real_pos_x)+' '+str(real_pos_y)+' '+str(real_pos_z)+'\n')
-			nout.write('vn '+str(nm0)+' '+str(nm1)+' '+str(nm2)+'\n')
+			#rn=0.1
+			#nout.write('v '+str(real_pos_x)+' '+str(real_pos_y)+' '+str(real_pos_z)+'\n')
+			#nout.write('v '+str(real_pos_x+nm0*rn)+' '+str(real_pos_y+nm1*rn)+' '+str(real_pos_z+nm2*rn)+'\n')
+			nout.write(str(nm0)+' '+str(nm1)+' '+str(nm2)+'\n')
 
 fout.close()
 nout.close()
