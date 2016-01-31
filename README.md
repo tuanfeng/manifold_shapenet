@@ -2,4 +2,4 @@
 
 
 
-blender -b depth.blend -P depth_blender.py > log -- task_info.haosu
+modify ./virtualscan/run.sh to process
