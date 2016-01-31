@@ -1,1726 +1,494 @@
-found bundled python: /Applications/blender.app/Contents/MacOS/../Resources/2.72/python
-read blend: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/depth.blend
-Fra:1 Mem:6.60M (0.00M, Peak 6.62M) | Preparing Scene data
-Fra:1 Mem:6.60M (0.00M, Peak 6.62M) | Preparing Scene data
-Fra:1 Mem:6.60M (0.00M, Peak 6.62M) | Creating Shadowbuffers
-Fra:1 Mem:6.60M (0.00M, Peak 6.62M) | Raytree.. preparing
-Fra:1 Mem:6.63M (0.00M, Peak 6.63M) | Raytree.. building
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) | Raytree finished
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) | Creating Environment maps
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) | Caching Point Densities
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) | Loading voxel datasets
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) | Volume preprocessing
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.63M (0.00M, Peak 6.67M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:9.82M (0.00M, Peak 10.89M) | Scene, Part 4-4
-Fra:1 Mem:9.42M (0.00M, Peak 10.89M) | Scene, Part 2-4
-Fra:1 Mem:8.75M (0.00M, Peak 10.89M) | Scene, Part 3-4
-Fra:1 Mem:8.08M (0.00M, Peak 10.89M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.36M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.36M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.36M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.89M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.89M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.19M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.19M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.19M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.19M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.19M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.13 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.82M) | Scene, Part 2-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.82M) | Scene, Part 4-4
-Fra:1 Mem:9.06M (0.00M, Peak 10.82M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.82M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.82M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.19M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.19M) | Scene, Part 2-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.19M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.19M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.19M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.19M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.19M) | Scene, Part 2-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.19M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.19M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.19M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.19M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.23M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.23M) | Scene, Part 2-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.23M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.23M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.23M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.23M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.15 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.25M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.25M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.25M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.25M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.25M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.16M) | Scene, Part 3-4
-Fra:1 Mem:9.45M (0.00M, Peak 11.16M) | Scene, Part 4-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.16M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.16M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.16M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.16M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.04M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.04M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.04M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.04M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.04M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.04M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.06M) | Scene, Part 2-4
-Fra:1 Mem:9.45M (0.00M, Peak 11.06M) | Scene, Part 4-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.06M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.06M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.06M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.06M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.25M) | Scene, Part 2-4
-Fra:1 Mem:9.45M (0.00M, Peak 11.25M) | Scene, Part 4-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.25M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.25M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.25M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.70M) | Scene, Part 2-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.70M) | Scene, Part 3-4
-Fra:1 Mem:8.78M (0.00M, Peak 10.70M) | Scene, Part 4-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.70M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.70M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.70M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.13 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.64M) | Scene, Part 3-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.64M) | Scene, Part 2-4
-Fra:1 Mem:8.78M (0.00M, Peak 10.64M) | Scene, Part 4-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.64M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.64M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.64M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.25M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.25M) | Scene, Part 2-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.25M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.25M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.25M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.25M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.72M) | Scene, Part 3-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.72M) | Scene, Part 2-4
-Fra:1 Mem:8.78M (0.00M, Peak 10.72M) | Scene, Part 4-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.72M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.72M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.72M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.15 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.83M) | Scene, Part 3-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.83M) | Scene, Part 2-4
-Fra:1 Mem:8.78M (0.00M, Peak 10.83M) | Scene, Part 4-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.83M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.83M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.83M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.11M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.11M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.11M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.11M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.11M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.11M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.14M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.14M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.14M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.14M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.14M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 11.14M) | Scene, Part 4-4
-Fra:1 Mem:9.73M (0.00M, Peak 11.14M) | Scene, Part 3-4
-Fra:1 Mem:9.06M (0.00M, Peak 11.14M) | Scene, Part 2-4
-Fra:1 Mem:8.39M (0.00M, Peak 11.14M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 11.14M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 11.14M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Preparing Scene data
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Creating Shadowbuffers
-Fra:1 Mem:6.90M (0.00M, Peak 6.92M) | Raytree.. preparing
-Fra:1 Mem:6.93M (0.00M, Peak 6.93M) | Raytree.. building
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Raytree finished
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Creating Environment maps
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Caching Point Densities
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) | Loading voxel datasets
-Fra:1 Mem:6.93M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) | Volume preprocessing
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-Fra:1 Mem:6.94M (0.00M, Peak 6.98M) Sce: Scene Ve:158 Fa:187 La:1
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-write exr tmp file, 100x100, /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Fra:1 Mem:10.12M (0.00M, Peak 10.82M) | Scene, Part 2-4
-Fra:1 Mem:9.45M (0.00M, Peak 10.82M) | Scene, Part 4-4
-Fra:1 Mem:9.06M (0.00M, Peak 10.82M) | Scene, Part 3-4
-Fra:1 Mem:8.39M (0.00M, Peak 10.82M) | Scene, Part 1-4
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer1.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer2.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer3.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer4.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer5.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer6.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-read exr tmp file: /var/folders/sg/zwcpmx5j6tj_2kr6nynsgc3w0000gn/T/blender_uVGg9P/depth.blend_Scene_RenderLayer7.exr
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Mem:7.66M (0.00M, Peak 10.82M) | Elapsed 00:00.00 | Tree Compositing Nodetree, Tile 1-1 
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_c1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_d1/Image0001.png
-Saved: /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp/tmp_n1/Image0001.png
-Fra:1 Mem:7.20M (0.00M, Peak 10.82M) Sce: Scene Ve:158 Fa:187 La:1
-Saved: /tmp/.png Time: 00:00.14 (Saving: 00:00.00)
-
-task info:  ['/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/models/sofa.obj', '/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/tmp', '/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/vs', '100', '100', '10', '', '', '', '#obj_file_path\t\t', '#image_output_path\t\t', '#surfp_output_path\t', '#resolution_x', '#resolution_y', '#samples of cameras']
-
-importing obj '/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/models/sofa.obj'
-	parsing obj file...
-0.0018 sec
-	loading materials and images...
-	Material not found MTL: b'/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/models/model_ori.mtl'
-0.0001 sec
-	building geometry...
-	verts:158 faces:187 materials: 3 smoothgroups:0 ...
-finished importing: b'/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/data/models/sofa.obj' in 0.0059 sec.
-Error, region type 5 missing in - name:"File", id:5
-Error, region type 6 missing in - name:"File", id:5
-Error, region type 5 missing in - name:"File", id:5
-Error, region type 6 missing in - name:"File", id:5
-
-Blender quit
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+/tmp/ccaeuqaN.o: In function `__Pyx_PyObject_GetAttrStr':
+process_sp.c:(.text+0x95): undefined reference to `PyObject_GetAttr'
+/tmp/ccaeuqaN.o: In function `__Pyx_InitCachedConstants':
+process_sp.c:(.text+0x152): undefined reference to `PyTuple_Pack'
+process_sp.c:(.text+0x1b5): undefined reference to `PyTuple_Pack'
+process_sp.c:(.text+0x20e): undefined reference to `PyTuple_Pack'
+/tmp/ccaeuqaN.o: In function `__Pyx_InitGlobals':
+process_sp.c:(.text+0x29f): undefined reference to `PyInt_FromLong'
+process_sp.c:(.text+0x2ec): undefined reference to `PyInt_FromLong'
+process_sp.c:(.text+0x339): undefined reference to `PyInt_FromLong'
+process_sp.c:(.text+0x386): undefined reference to `PyInt_FromLong'
+process_sp.c:(.text+0x3d0): undefined reference to `PyInt_FromLong'
+/tmp/ccaeuqaN.o: In function `initprocess_sp':
+process_sp.c:(.text+0x4af): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x4fe): undefined reference to `PyString_FromStringAndSize'
+process_sp.c:(.text+0x55d): undefined reference to `Py_InitModule4_64'
+process_sp.c:(.text+0x5c9): undefined reference to `PyModule_GetDict'
+process_sp.c:(.text+0x624): undefined reference to `PyImport_AddModule'
+process_sp.c:(.text+0x67f): undefined reference to `PyObject_SetAttrString'
+process_sp.c:(.text+0x700): undefined reference to `PyObject_SetAttrString'
+process_sp.c:(.text+0x79a): undefined reference to `PyList_New'
+process_sp.c:(.text+0x8ee): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x996): undefined reference to `PyList_New'
+process_sp.c:(.text+0xaea): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xb92): undefined reference to `PyList_New'
+process_sp.c:(.text+0xce6): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xd8e): undefined reference to `PyList_New'
+process_sp.c:(.text+0xee2): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xf8a): undefined reference to `PyList_New'
+process_sp.c:(.text+0x10de): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x11ea): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x12bb): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x138c): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x14dc): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x1709): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x1896): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x19fc): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x1b6a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x1cd0): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x2051): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x216d): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x2337): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x240d): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x2702): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x29f9): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x2a5f): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x2ae4): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x2b39): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x2e30): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x2e96): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x2f1b): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x2f70): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x3267): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x32cd): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x3352): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x33a7): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x345d): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x35fb): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x36c1): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3787): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3804): undefined reference to `PyList_New'
+process_sp.c:(.text+0x3893): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x39bf): undefined reference to `PyNumber_Divide'
+process_sp.c:(.text+0x3a8a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x3b40): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3cd6): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3da4): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3e6a): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x3ee7): undefined reference to `PyList_New'
+process_sp.c:(.text+0x3f7c): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x40a1): undefined reference to `PyNumber_Divide'
+process_sp.c:(.text+0x416c): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x4222): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x43b8): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x447e): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x4544): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x45c9): undefined reference to `PyList_New'
+process_sp.c:(.text+0x465e): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x4795): undefined reference to `PyNumber_Divide'
+process_sp.c:(.text+0x486b): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x4b8f): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x4bfb): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x4c84): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x4ce4): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x5008): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x5074): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x50fd): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x515d): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x5481): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x54ed): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x5576): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x55d6): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x58fa): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x5966): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x59ef): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x5a4f): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x5bee): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x5d2e): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x5ecd): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x600d): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x60e3): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x61b9): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x628f): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x63f7): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x654d): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x665c): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x66ed): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x67b2): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x6ac1): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x6bd0): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x6c61): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x6dbf): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x6e84): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x7179): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7284): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x730a): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7459): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7525): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x782d): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7940): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x79c9): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7b27): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x7bec): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x7f3f): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x804a): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x80d0): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x8194): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x84a7): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x85c1): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x864b): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x87a2): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x8866): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x8b79): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x8c93): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x8d1d): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x8e74): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x8f38): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x924b): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x9365): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x93ef): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x9546): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x960a): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x9964): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x9a73): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x9b04): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x9bc9): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xa29a): undefined reference to `PyList_New'
+process_sp.c:(.text+0xa342): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xa80b): undefined reference to `PyList_New'
+process_sp.c:(.text+0xa8c1): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xaa0f): undefined reference to `PyList_New'
+process_sp.c:(.text+0xaab7): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xab77): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xac07): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xacc7): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xad57): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xae17): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xaea7): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xb02b): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xb17a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xb2fe): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xb44d): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xb5d1): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xb720): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xb81b): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xb94a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xba45): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xbb74): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xbc6f): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xbd9e): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xbe5e): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xbf2b): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xbfef): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xc07f): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xc13f): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xc20c): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xc2d0): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xc360): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xc414): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xc52b): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xc5df): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xc6f6): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xc8c7): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xc9cf): undefined reference to `PyList_Type'
+process_sp.c:(.text+0xc9df): undefined reference to `PyTuple_Type'
+process_sp.c:(.text+0xca21): undefined reference to `PyObject_GetIter'
+process_sp.c:(.text+0xcabc): undefined reference to `PyList_Type'
+process_sp.c:(.text+0xcb1c): undefined reference to `PyTuple_Type'
+process_sp.c:(.text+0xcb88): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xcb9a): undefined reference to `PyExc_StopIteration'
+process_sp.c:(.text+0xcbb0): undefined reference to `PyExc_StopIteration'
+process_sp.c:(.text+0xcbbf): undefined reference to `PyErr_GivenExceptionMatches'
+process_sp.c:(.text+0xcbd1): undefined reference to `PyErr_Clear'
+process_sp.c:(.text+0xcc19): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xcdea): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xcef2): undefined reference to `PyList_Type'
+process_sp.c:(.text+0xcf02): undefined reference to `PyTuple_Type'
+process_sp.c:(.text+0xcf44): undefined reference to `PyObject_GetIter'
+process_sp.c:(.text+0xcfdf): undefined reference to `PyList_Type'
+process_sp.c:(.text+0xd03f): undefined reference to `PyTuple_Type'
+process_sp.c:(.text+0xd0ab): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xd0bd): undefined reference to `PyExc_StopIteration'
+process_sp.c:(.text+0xd0d3): undefined reference to `PyExc_StopIteration'
+process_sp.c:(.text+0xd0e2): undefined reference to `PyErr_GivenExceptionMatches'
+process_sp.c:(.text+0xd0f4): undefined reference to `PyErr_Clear'
+process_sp.c:(.text+0xd13c): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xd286): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xd2ff): undefined reference to `PyObject_GetItem'
+process_sp.c:(.text+0xd3ca): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xd48f): undefined reference to `PyObject_RichCompare'
+process_sp.c:(.text+0xd5f3): undefined reference to `PyObject_RichCompare'
+process_sp.c:(.text+0xd7ee): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0xd872): undefined reference to `PyObject_GetItem'
+process_sp.c:(.text+0xd941): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xd9f9): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xda5f): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xdadd): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xdb49): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xdba5): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xdbb2): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xdbbf): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xdbcc): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xdc0f): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0xdc64): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xdd1c): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xdd82): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xdf70): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xdfd6): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe054): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xe0c0): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe11c): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xe129): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xe136): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xe143): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xe2fc): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xe362): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe3e0): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xe44c): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe4a8): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xe4b5): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xe4c2): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xe4cf): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xe52c): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xe539): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xe546): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xe553): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xe586): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0xe5db): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xe693): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xe6f9): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe8e7): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xe94d): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xe9cb): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xea37): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xea93): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xeaa0): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xeaad): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xeaba): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xec7b): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xece1): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xed5f): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0xedcb): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0xee27): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xee34): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xee41): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xee4e): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xeeab): undefined reference to `PyGILState_Ensure'
+process_sp.c:(.text+0xeeb8): undefined reference to `PyExc_ZeroDivisionError'
+process_sp.c:(.text+0xeec5): undefined reference to `PyErr_SetString'
+process_sp.c:(.text+0xeed2): undefined reference to `PyGILState_Release'
+process_sp.c:(.text+0xef05): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0xef5a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xf101): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xf2ec): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xf3b0): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xf47f): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xf622): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xf814): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xf8d9): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xf9a4): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xfb3c): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xfd2a): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0xfdef): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0xfec5): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0xffd8): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x10136): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x101fb): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x102d1): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x103e4): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x10542): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x10607): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x106dd): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x107f0): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x1094e): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x10a13): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x10ae9): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x10c88): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x10ceb): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x10d84): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x10e54): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x10eb7): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x10f4d): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11015): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x110e1): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x1113e): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x111cc): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11294): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x113f4): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x11457): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x114ed): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x115b5): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11715): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x11772): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x11800): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x118c8): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11a28): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x11a8b): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x11b21): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11be9): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x11c6e): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x11eb4): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x11f2a): undefined reference to `PyObject_GetItem'
+process_sp.c:(.text+0x11ff9): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x12145): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x121ab): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x1223e): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x12293): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x123df): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x12445): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x124d8): undefined reference to `PyFloat_FromDouble'
+process_sp.c:(.text+0x1252d): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x12631): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x12788): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x1284c): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x12919): undefined reference to `PyObject_RichCompare'
+process_sp.c:(.text+0x12a37): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x12b05): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x12bd4): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x12cf7): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x12dbc): undefined reference to `PyNumber_Subtract'
+process_sp.c:(.text+0x12e87): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x1300b): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x1313a): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x131f0): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x13351): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x13452): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x135be): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x13683): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x1378c): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x138ed): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x139b1): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x13a80): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x13b36): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x13ca2): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x13db2): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x13f26): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x13ff2): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x14102): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x14276): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x14342): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x14411): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x144c7): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x14633): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x14738): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x148a4): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x14969): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x14a6a): undefined reference to `PyNumber_Negative'
+process_sp.c:(.text+0x14bd6): undefined reference to `PyNumber_Multiply'
+process_sp.c:(.text+0x14c9b): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x14d71): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x14f10): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x14f73): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x1500c): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x150dc): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x1513f): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x151d5): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x1529d): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x15369): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x153c6): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x15454): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x1551c): undefined reference to `PyNumber_Add'
+process_sp.c:(.text+0x15599): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x15a9e): undefined reference to `PyDict_New'
+process_sp.c:(.text+0x15af3): undefined reference to `PyDict_SetItem'
+process_sp.c:(.text+0x15d28): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x15d34): undefined reference to `PyExc_ImportError'
+process_sp.c:(.text+0x15d41): undefined reference to `PyErr_SetString'
+/tmp/ccaeuqaN.o: In function `__Pyx_GetBuiltinName':
+process_sp.c:(.text+0x15d89): undefined reference to `PyExc_NameError'
+process_sp.c:(.text+0x15d9b): undefined reference to `PyErr_Format'
+/tmp/ccaeuqaN.o: In function `__Pyx_ImportFrom':
+process_sp.c:(.text+0x15ddf): undefined reference to `PyExc_AttributeError'
+process_sp.c:(.text+0x15de7): undefined reference to `PyErr_ExceptionMatches'
+process_sp.c:(.text+0x15dfa): undefined reference to `PyExc_ImportError'
+process_sp.c:(.text+0x15e0c): undefined reference to `PyErr_Format'
+/tmp/ccaeuqaN.o: In function `__Pyx_GetModuleGlobalName':
+process_sp.c:(.text+0x15e34): undefined reference to `PyDict_GetItem'
+/tmp/ccaeuqaN.o: In function `__Pyx_PyObject_Call':
+process_sp.c:(.text+0x15eb7): undefined reference to `PyObject_Call'
+process_sp.c:(.text+0x15ec3): undefined reference to `_PyThreadState_Current'
+process_sp.c:(.text+0x15ed5): undefined reference to `_Py_CheckRecursionLimit'
+process_sp.c:(.text+0x15eec): undefined reference to `_Py_CheckRecursiveCall'
+process_sp.c:(.text+0x15f20): undefined reference to `_PyThreadState_Current'
+process_sp.c:(.text+0x15f3e): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x15f53): undefined reference to `PyExc_SystemError'
+process_sp.c:(.text+0x15f60): undefined reference to `PyErr_SetString'
+/tmp/ccaeuqaN.o: In function `__Pyx_PyObject_GetSlice':
+process_sp.c:(.text+0x15fde): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x15fff): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x1602d): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x1604e): undefined reference to `PyErr_Occurred'
+process_sp.c:(.text+0x16117): undefined reference to `PyExc_OverflowError'
+process_sp.c:(.text+0x1611f): undefined reference to `PyErr_ExceptionMatches'
+process_sp.c:(.text+0x16128): undefined reference to `PyErr_Clear'
+process_sp.c:(.text+0x161d8): undefined reference to `PyInt_FromSsize_t'
+process_sp.c:(.text+0x16201): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x16227): undefined reference to `PyInt_FromSsize_t'
+process_sp.c:(.text+0x1628f): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x1629c): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x162a7): undefined reference to `PySlice_New'
+process_sp.c:(.text+0x163a3): undefined reference to `PyExc_TypeError'
+process_sp.c:(.text+0x163b5): undefined reference to `PyErr_Format'
+/tmp/ccaeuqaN.o: In function `__Pyx_GetItemInt_Generic':
+process_sp.c:(.text+0x163ed): undefined reference to `PyObject_GetItem'
+/tmp/ccaeuqaN.o: In function `__Pyx_GetItemInt_Fast':
+process_sp.c:(.text+0x16458): undefined reference to `PyList_Type'
+process_sp.c:(.text+0x1650b): undefined reference to `PyTuple_Type'
+process_sp.c:(.text+0x1664c): undefined reference to `PyExc_OverflowError'
+process_sp.c:(.text+0x16654): undefined reference to `PyErr_ExceptionMatches'
+process_sp.c:(.text+0x1665d): undefined reference to `PyErr_Clear'
+process_sp.c:(.text+0x1668c): undefined reference to `PyInt_FromSsize_t'
+/tmp/ccaeuqaN.o: In function `__Pyx__PyObject_AsDouble':
+process_sp.c:(.text+0x16727): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x16743): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x1674b): undefined reference to `PyType_IsSubtype'
+process_sp.c:(.text+0x1676b): undefined reference to `PyExc_TypeError'
+process_sp.c:(.text+0x1677d): undefined reference to `PyErr_Format'
+process_sp.c:(.text+0x167cd): undefined reference to `PyUnicode_Type'
+process_sp.c:(.text+0x167dd): undefined reference to `PyString_Type'
+process_sp.c:(.text+0x167f0): undefined reference to `PyFloat_FromString'
+process_sp.c:(.text+0x16803): undefined reference to `PyTuple_New'
+process_sp.c:(.text+0x16839): undefined reference to `PyFloat_Type'
+process_sp.c:(.text+0x1683e): undefined reference to `PyObject_Call'
+/tmp/ccaeuqaN.o: In function `__Pyx_SetItemInt_Generic':
+process_sp.c:(.text+0x16924): undefined reference to `PyObject_SetItem'
+/tmp/ccaeuqaN.o: In function `__Pyx_SetItemInt_Fast':
+process_sp.c:(.text+0x16992): undefined reference to `PyList_Type'
+process_sp.c:(.text+0x16b29): undefined reference to `PyExc_OverflowError'
+process_sp.c:(.text+0x16b31): undefined reference to `PyErr_ExceptionMatches'
+process_sp.c:(.text+0x16b3a): undefined reference to `PyErr_Clear'
+process_sp.c:(.text+0x16b6a): undefined reference to `PyInt_FromSsize_t'
+/tmp/ccaeuqaN.o: In function `__Pyx_Import':
+process_sp.c:(.text+0x16bf9): undefined reference to `PyList_New'
+process_sp.c:(.text+0x16c20): undefined reference to `PyModule_GetDict'
+process_sp.c:(.text+0x16c35): undefined reference to `PyDict_New'
+process_sp.c:(.text+0x16c5d): undefined reference to `PyInt_FromLong'
+process_sp.c:(.text+0x16c9d): undefined reference to `PyObject_CallFunctionObjArgs'
+/tmp/ccaeuqaN.o: In function `__Pyx_check_binary_version':
+process_sp.c:(.text+0x16dcc): undefined reference to `PyOS_snprintf'
+process_sp.c:(.text+0x16dd1): undefined reference to `Py_GetVersion'
+process_sp.c:(.text+0x16df5): undefined reference to `PyOS_snprintf'
+process_sp.c:(.text+0x16e51): undefined reference to `PyOS_snprintf'
+process_sp.c:(.text+0x16e6a): undefined reference to `PyErr_WarnEx'
+/tmp/ccaeuqaN.o: In function `__pyx_insert_code_object':
+process_sp.c:(.text+0x1707e): undefined reference to `PyMem_Malloc'
+process_sp.c:(.text+0x171df): undefined reference to `PyMem_Realloc'
+/tmp/ccaeuqaN.o: In function `__Pyx_CreateCodeObjectForTraceback':
+process_sp.c:(.text+0x172e9): undefined reference to `PyString_FromString'
+process_sp.c:(.text+0x1731f): undefined reference to `PyString_FromFormat'
+process_sp.c:(.text+0x17331): undefined reference to `PyString_FromString'
+process_sp.c:(.text+0x173bc): undefined reference to `PyCode_New'
+/tmp/ccaeuqaN.o: In function `__Pyx_AddTraceback':
+process_sp.c:(.text+0x17543): undefined reference to `PyModule_GetDict'
+process_sp.c:(.text+0x17557): undefined reference to `_PyThreadState_Current'
+process_sp.c:(.text+0x1756c): undefined reference to `PyFrame_New'
+process_sp.c:(.text+0x1758f): undefined reference to `PyTraceBack_Here'
+/tmp/ccaeuqaN.o: In function `__Pyx_InitStrings':
+process_sp.c:(.text+0x1764e): undefined reference to `PyUnicodeUCS4_DecodeUTF8'
+process_sp.c:(.text+0x17676): undefined reference to `PyString_InternFromString'
+process_sp.c:(.text+0x176a1): undefined reference to `PyString_FromStringAndSize'
+/tmp/ccaeuqaN.o: In function `__Pyx_PyObject_IsTrue':
+process_sp.c:(.text+0x176ef): undefined reference to `_Py_TrueStruct'
+process_sp.c:(.text+0x17700): undefined reference to `_Py_ZeroStruct'
+process_sp.c:(.text+0x17713): undefined reference to `_Py_NoneStruct'
+process_sp.c:(.text+0x17730): undefined reference to `PyObject_IsTrue'
+/tmp/ccaeuqaN.o: In function `__Pyx_PyIndex_AsSsize_t':
+process_sp.c:(.text+0x1774c): undefined reference to `PyInt_Type'
+process_sp.c:(.text+0x17772): undefined reference to `PyLong_Type'
+process_sp.c:(.text+0x17789): undefined reference to `PyLong_AsSsize_t'
+process_sp.c:(.text+0x17797): undefined reference to `PyNumber_Index'
+process_sp.c:(.text+0x177b7): undefined reference to `PyInt_AsSsize_t'
+collect2: error: ld returned 1 exit status

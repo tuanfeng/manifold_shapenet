@@ -8,12 +8,10 @@ import os, math, sys
 argv = sys.argv
 argv = argv[argv.index("--") + 1:]
 
-task_info=open(argv[0],'r')
-#task_info=open('/home/tuanfeng/Documents/smart_texture/code/depth_buffer/task_info','r')
-
-task_info_ = task_info.read().splitlines()
-
-obj_name = os.path.splitext(os.path.basename(task_info_[0]))[0]
+modelname = argv[0]
+intermediate_folder = argv[1]
+result_folder = argv[2]
+obj_name = os.path.splitext(os.path.basename(modelname))[0]
 
 render_info = open('render_report', 'r')
 render_info_ =  render_info.read().splitlines()
@@ -59,9 +57,9 @@ dir_o = [dir_vector_x,dir_vector_y,dir_vector_z]
 #print np_linalg.norm(dir_up), np_linalg.norm(dir_ri)
 #print(dir_up[0]*dir_ri[0]+dir_up[1]*dir_ri[1]+dir_up[2]*dir_ri[2])
 
-image_c_path = task_info_[1]+'/tmp_c1/Image0001.png'
-image_d_path = task_info_[1]+'/tmp_d1/Image0001.png'
-image_n_path = task_info_[1]+'/tmp_n1/Image0001.png'
+image_c_path = intermediate_folder+'/tmp_c1/Image0001.png'
+image_d_path = intermediate_folder+'/tmp_d1/Image0001.png'
+image_n_path = intermediate_folder+'/tmp_n1/Image0001.png'
 image_c_ori = Image.open(image_c_path, 'r')
 image_d_ori = Image.open(image_d_path, 'r')
 image_n_ori = Image.open(image_n_path, 'r')
@@ -70,8 +68,8 @@ image_d = np_asarray(image_d_ori)
 image_n = np_asarray(image_n_ori)
 
 
-sp_file_path = task_info_[2]+'/'+obj_name+'.off'
-nl_file_path = task_info_[2]+'/'+obj_name+'.normal'
+sp_file_path = result_folder+'/'+obj_name+'.off'
+nl_file_path = result_folder+'/'+obj_name+'.normal'
 
 fout = open(sp_file_path,'a')
 nout = open(nl_file_path,'a')
