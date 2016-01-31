@@ -17,14 +17,24 @@ Scenename = 'Scene'
 argv = sys.argv
 argv = argv[argv.index("--") + 1:]
 
-task_info=open(argv[0],'r')
-#task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info.tuanfeng','r')
+# task_info = open(argv[0],'r')
+# task_info=open('/Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/virtualscan/task_info.tuanfeng','r')
 
-task_info_ = task_info.read().splitlines();
-print("task info: ", task_info_)
+# task_info_ = task_info.read().splitlines();
+# print("task info: ", task_info_)
+if len(argv) < 5:
+	print("usage: /orions-zfs/software/blender-2.71/blender -b depth.blend -P depth_blender.py > log -- res_x res_y num_cam modelname.obj intermediate_folder result_folder")
+	exit()
 
-bpy.data.scenes[Scenename].render.resolution_x = int(task_info_[3])
-bpy.data.scenes[Scenename].render.resolution_y = int(task_info_[4])
+res_x = int(argv[0])
+res_y = int(argv[1])
+num_cam = int(argv[2])
+modelname = argv[3]
+intermediate_folder = argv[4]
+result_folder = argv[5]
+
+bpy.data.scenes[Scenename].render.resolution_x = res_x
+bpy.data.scenes[Scenename].render.resolution_y = res_y
 bpy.data.scenes[Scenename].render.resolution_percentage = 100
 #bpy.data.scenes[Scenename].render.image_settings.file_format = 'PNG'
 bpy.data.scenes[Scenename].render.image_settings.quality = 100
@@ -35,17 +45,17 @@ bpy.data.scenes[Scenename].render.use_overwrite = True
 bpy.context.scene.render.engine = "BLENDER_RENDER"
 
 
-bpy.data.scenes[0].node_tree.nodes[0].base_path = task_info_[1]+'/tmp_c1/'
-bpy.data.scenes[0].node_tree.nodes[3].base_path = task_info_[1]+'/tmp_d1/'
-bpy.data.scenes[0].node_tree.nodes[11].base_path = task_info_[1]+'/tmp_n1/'
+bpy.data.scenes[0].node_tree.nodes[0].base_path = intermediate_folder+'/tmp_c1/'
+bpy.data.scenes[0].node_tree.nodes[3].base_path = intermediate_folder+'/tmp_d1/'
+bpy.data.scenes[0].node_tree.nodes[11].base_path = intermediate_folder+'/tmp_n1/'
 
 
 #bpy.data.scenes[Scenename].cycles.samples = int(task_info_[5])
 
-bpy.data.scenes[Scenename].render.use_antialiasing = True
-bpy.data.scenes[Scenename].render.use_full_sample = True
+bpy.data.scenes[Scenename].render.use_antialiasing = False
+bpy.data.scenes[Scenename].render.use_full_sample = False
 
-bpy.ops.import_scene.obj(filepath=task_info_[0],use_split_groups=False)
+bpy.ops.import_scene.obj(filepath=modelname,use_split_groups=False)
 
 if bpy.data.objects[0].name != 'Camera' and bpy.data.objects[0].name != 'Point':
 	bpy.context.scene.objects.active = bpy.data.objects[0]
@@ -62,9 +72,9 @@ if bpy.data.objects[2].name != 'Camera' and bpy.data.objects[2].name != 'Point':
 	bpy.ops.object.join()
 	objid = 2
 
-obj_name = os.path.splitext(os.path.basename(task_info_[0]))[0]
+obj_name = os.path.splitext(os.path.basename(modelname))[0]
 
-if not os.path.exists(task_info_[1]+'/'+obj_name+'_cd/'): os.makedirs(task_info_[1]+'/'+obj_name+'_cd/')
+if not os.path.exists(intermediate_folder+'/'+obj_name+'_cd/'): os.makedirs(intermediate_folder+'/'+obj_name+'_cd/')
 
 #bpy.data.objects[obj_name].rotation_euler = (0,0,0)
 
@@ -111,21 +121,18 @@ for material_ in bpy.data.materials:
 	bpy.data.materials[material_.name].use_shadeless = True
 	bpy.data.materials[material_.name].use_transparency = False
 
-S = int(task_info_[5])
-
 Rad = float(5.0)
 
 sp_vert_num = 0
 
-if os.path.isfile(task_info_[2]+'/'+obj_name+'.off'):
-	os.remove(task_info_[2]+'/'+obj_name+'.off')
-if os.path.isfile(task_info_[2]+'/'+obj_name+'.normal'):
-	os.remove(task_info_[2]+'/'+obj_name+'.normal')
+if os.path.isfile(result_folder+'/'+obj_name+'.off'):
+	os.remove(result_folder+'/'+obj_name+'.off')
+if os.path.isfile(result_folder+'/'+obj_name+'.normal'):
+	os.remove(result_folder+'/'+obj_name+'.normal')
 
-
-for i in range(1, 2 * S + 1):
-	ui = math.asin(1 - float(2*i-1)/float(2*S))
-	vi = ui * math.pow(2*float(S)*math.pi, 0.5)
+for i in range(1, 2 * num_cam + 1):
+	ui = math.asin(1 - float(2*i-1)/float(2*num_cam))
+	vi = ui * math.pow(2*float(num_cam)*math.pi, 0.5)
 	ni = [math.cos(ui)*math.cos(vi), math.cos(ui)*math.sin(vi), math.sin(ui)]
 	
 	bpy.data.objects['Camera'].location[0] = ni[0] * Rad
@@ -149,24 +156,20 @@ for i in range(1, 2 * S + 1):
 	f.write(str(bpy.data.objects['Camera'].rotation_axis_angle[0])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[1])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[2])+' '+str(bpy.data.objects['Camera'].rotation_axis_angle[3])+'\n')
 	f.close()
 
-	process_sp = Popen(("python process_sp.py -- "+argv[0]).split())
+	process_sp = Popen(("python process_sp.py -- "+modelname+" "+intermediate_folder+" "+result_folder).split())
 	process_sp.communicate()
 
-	shutil_move(task_info_[1]+'/tmp_c1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_c.png')
-	shutil_move(task_info_[1]+'/tmp_d1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_d.png')
-	shutil_move(task_info_[1]+'/tmp_n1/Image0001.png',task_info_[1]+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_n.png')
+	shutil_move(intermediate_folder+'/tmp_c1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_c.png')
+	shutil_move(intermediate_folder+'/tmp_d1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_d.png')
+	shutil_move(intermediate_folder+'/tmp_n1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_n.png')
 
 
 
-with open(task_info_[2]+'/'+obj_name+'.off','r') as file:
+with open(result_folder+'/'+obj_name+'.off','r') as file:
 	data = file.readlines()
 
-f = open(task_info_[2]+'/'+obj_name+'.off','w')
+f = open(result_folder+'/'+obj_name+'.off','w')
 f.write('COFF\n')
 f.write(str(len(data))+' 0 0\n')
 f.writelines(data)
 f.close()
-
-
-
-
