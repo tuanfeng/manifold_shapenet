@@ -75,6 +75,7 @@ if bpy.data.objects[2].name != 'Camera' and bpy.data.objects[2].name != 'Point':
 obj_name = os.path.splitext(os.path.basename(modelname))[0]
 
 if not os.path.exists(intermediate_folder+'/'+obj_name+'_cd/'): os.makedirs(intermediate_folder+'/'+obj_name+'_cd/')
+if not os.path.exists(result_folder+'/'+obj_name+'_cd/'): os.makedirs(result_folder+'/'+obj_name+'_cd/')
 
 #bpy.data.objects[obj_name].rotation_euler = (0,0,0)
 
@@ -162,7 +163,6 @@ for i in range(1, 2 * num_cam + 1):
 	shutil_move(intermediate_folder+'/tmp_c1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_c.png')
 	shutil_move(intermediate_folder+'/tmp_d1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_d.png')
 	shutil_move(intermediate_folder+'/tmp_n1/Image0001.png',intermediate_folder+'/'+obj_name+'_cd/'+obj_name+'_'+str(i).zfill(2)+'_n.png')
-
 
 
 with open(result_folder+'/'+obj_name+'.off','r') as file:
