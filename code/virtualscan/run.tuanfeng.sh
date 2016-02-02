@@ -4,4 +4,5 @@
 lua combineOFFandNormalTogether.lua /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/data/virtualscan/model.normal /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/data/virtualscan/model.off /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/data/virtualscan/model.pointandnormal
 
 
-/orions4-zfs/projects/haosu/codebase/geometryprocessing/C++/PoissonRecon/Bin/Linux/PoissonRecon --in /orions4-zfs/projects/haosu/codebase/geometryprocessing/models/virtualscan/model.pointandnormal --out /orions4-zfs/projects/haosu/codebase/geometryprocessing/models/virtualscan/model.ply --depth 10
+./../PoissonRecon/Bin/Mac/PoissonRecon --in /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/data/virtualscan/model.pointandnormal --out /Users/tuanfeng/Documents/ResearchWork/manifold_shapenet/manifold_shapenet/data/virtualscan/model.ply --depth 10
+

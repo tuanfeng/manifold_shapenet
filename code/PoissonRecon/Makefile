@@ -20,11 +20,11 @@ CFLAGS_RELEASE = -O3 -DRELEASE -funroll-loops -ffast-math
 LFLAGS_RELEASE = -O3 
 
 SRC = Src/
-BIN = Bin/Linux/
-INCLUDE = /usr/include/
+BIN = Bin/Mac/
+INCLUDE = /usr/local/include/
 
-CC=gcc
-CXX=g++
+CC=gcc-4.8
+CXX=g++-4.8
 MD=mkdir
 
 PR_OBJECTS=$(addprefix $(BIN), $(addsuffix .o, $(basename $(PR_SOURCE))))

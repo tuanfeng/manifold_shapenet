@@ -1,0 +1,53 @@
+wireles-guest-16-43-104:PoissonRecon tuanfeng$ make
+mkdir -p Bin/Mac/
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/CmdLineParser.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/CmdLineParser.cpp
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/Factor.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/Factor.cpp
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/Geometry.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/Geometry.cpp
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/MarchingCubes.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/MarchingCubes.cpp
+Src/MarchingCubes.cpp:306:115: note: #pragma message: [WARNING] Not clear if MarchingSquares::edgeMask and MarchingSquares::edges are set correctly
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/PlyFile.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/PlyFile.cpp
+mkdir -p Bin/Mac/
+g++ -c -o Bin/Mac/PoissonRecon.o -fopenmp -Wno-deprecated -DDEBUG -g3 -I/usr/local/include/ Src/PoissonRecon.cpp
+In file included from Src/MultiGridOctreeData.h:665:0,
+                 from Src/PoissonRecon.cpp:50:
+Src/MultiGridOctreeData.inl: In member function 'int Octree<Real>::SetTree(OrientedPointStream<PointReal>*, int, int, int, int, Real, Real, bool, bool, Real, int, SparseNodeData<Real, WeightDegree>&, SparseNodeData<PointData<Real>, 0>&, SparseNodeData<Point3D<Real>, NormalDegree>&, SparseNodeData<Real, NormalDegree>&, SparseNodeData<Octree<Real>::ProjectiveData<_Data>, DataDegree>*, XForm4x4<Real>&, bool, bool)':
+Src/MultiGridOctreeData.inl:335:149: note: #pragma message: [WARNING] This is likely wrong as it only forces the normal component of the coefficient to be zero, not the actual vector-field
+In file included from Src/MultiGridOctreeData.h:666:0,
+                 from Src/PoissonRecon.cpp:50:
+Src/MultiGridOctreeData.SortedTreeNodes.inl: In member function 'void SortedTreeNodes::setSliceTableData(SortedTreeNodes::SliceTableData&, int, int, int) const':
+Src/MultiGridOctreeData.SortedTreeNodes.inl:130:35: error: 'template' (as a disambiguator) is only allowed within templates
+Src/MultiGridOctreeData.SortedTreeNodes.inl:130:70: error: invalid declarator before 'ConstAdjacenctNodeKey'
+Src/MultiGridOctreeData.SortedTreeNodes.inl:152:15: error: 'ConstAdjacenctNodeKey' was not declared in this scope
+Src/MultiGridOctreeData.SortedTreeNodes.inl:152:37: error: template argument 1 is invalid
+Src/MultiGridOctreeData.SortedTreeNodes.inl:152:37: error: template argument 2 is invalid
+Src/MultiGridOctreeData.SortedTreeNodes.inl:152:51: error: invalid type in declaration before '(' token
+Src/MultiGridOctreeData.SortedTreeNodes.inl:153:35: error: request for member 'size' in 'neighborKeys', which is of non-class type 'int'
+Src/MultiGridOctreeData.SortedTreeNodes.inl:153:64: error: invalid types 'int[size_t {aka long unsigned int}]' for array subscript
+Src/MultiGridOctreeData.SortedTreeNodes.inl:157:26: error: 'neighborKey' was not declared in this scope
+Src/MultiGridOctreeData.SortedTreeNodes.inl:157:75: error: invalid types 'int[int]' for array subscript
+Src/MultiGridOctreeData.SortedTreeNodes.inl: In member function 'void SortedTreeNodes::setXSliceTableData(SortedTreeNodes::XSliceTableData&, int, int, int) const':
+Src/MultiGridOctreeData.SortedTreeNodes.inl:263:35: error: 'template' (as a disambiguator) is only allowed within templates
+Src/MultiGridOctreeData.SortedTreeNodes.inl:263:70: error: invalid declarator before 'ConstAdjacenctNodeKey'
+Src/MultiGridOctreeData.SortedTreeNodes.inl:283:15: error: 'ConstAdjacenctNodeKey' was not declared in this scope
+Src/MultiGridOctreeData.SortedTreeNodes.inl:283:37: error: template argument 1 is invalid
+Src/MultiGridOctreeData.SortedTreeNodes.inl:283:37: error: template argument 2 is invalid
+Src/MultiGridOctreeData.SortedTreeNodes.inl:283:51: error: invalid type in declaration before '(' token
+Src/MultiGridOctreeData.SortedTreeNodes.inl:284:35: error: request for member 'size' in 'neighborKeys', which is of non-class type 'int'
+Src/MultiGridOctreeData.SortedTreeNodes.inl:284:64: error: invalid types 'int[size_t {aka long unsigned int}]' for array subscript
+Src/MultiGridOctreeData.SortedTreeNodes.inl:288:26: error: 'neighborKey' was not declared in this scope
+Src/MultiGridOctreeData.SortedTreeNodes.inl:288:75: error: invalid types 'int[int]' for array subscript
+Src/PoissonRecon.cpp: At global scope:
+Src/PoissonRecon.cpp:57:87: note: #pragma message: [WARNING] Setting default full depth to 5
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Src/PoissonRecon.cpp:301:1: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+make: *** [Bin/Mac/PoissonRecon.o] Error 1
+wireles-guest-16-43-104:PoissonRecon tuanfeng$ 
