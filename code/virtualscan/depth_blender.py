@@ -10,6 +10,16 @@ from numpy import cross as np_cross
 from numpy import array as np_array
 from numpy import linalg as np_linalg
 from subprocess import Popen
+import numpy as np
+
+
+def obj_centened_camera_pos(dist, phi_deg, theta_deg):
+    phi = float(phi_deg) / 180 * math.pi
+    theta = float(theta_deg) / 180 * math.pi
+    x = (dist * math.cos(theta) * math.cos(phi))
+    y = (dist * math.sin(theta) * math.cos(phi))
+    z = (dist * math.sin(phi))
+    return (x, y, z)
 
 #change scene name to yours
 Scenename = 'Scene'
@@ -52,8 +62,8 @@ bpy.data.scenes[0].node_tree.nodes[11].base_path = intermediate_folder+'/tmp_n1/
 
 #bpy.data.scenes[Scenename].cycles.samples = int(task_info_[5])
 
-bpy.data.scenes[Scenename].render.use_antialiasing = False
-bpy.data.scenes[Scenename].render.use_full_sample = False
+bpy.data.scenes[Scenename].render.use_antialiasing = True
+bpy.data.scenes[Scenename].render.use_full_sample = True
 
 bpy.ops.import_scene.obj(filepath=modelname,use_split_groups=False)
 
@@ -119,7 +129,7 @@ for vertex in bpy.data.objects[objid].data.vertices:
 	vertex.co[2] = vertex.co[2]/vert_dis/1.01
 
 for material_ in bpy.data.materials:
-	bpy.data.materials[material_.name].use_shadeless = True
+	bpy.data.materials[material_.name].use_shadeless = False
 	bpy.data.materials[material_.name].use_transparency = False
 
 Rad = float(5.0)
@@ -130,6 +140,15 @@ if os.path.isfile(result_folder+'/'+obj_name+'.off'):
 	os.remove(result_folder+'/'+obj_name+'.off')
 if os.path.isfile(result_folder+'/'+obj_name+'.normal'):
 	os.remove(result_folder+'/'+obj_name+'.normal')
+
+lightDist = 10
+for i in range(3):
+    light_phi_deg = np.random.uniform(-60, 60)
+    light_theta_deg  = np.random.uniform(0, 360)
+    lx, ly, lz = obj_centened_camera_pos(lightDist, light_phi_deg, light_theta_deg)
+    bpy.ops.object.lamp_add(type='POINT', view_align = False, location=(lx, ly, lz))
+    bpy.data.objects['Point'].data.energy = 1
+
 
 for i in range(1, 2 * num_cam + 1):
 	ui = math.asin(1 - float(2*i-1)/float(2*num_cam))
