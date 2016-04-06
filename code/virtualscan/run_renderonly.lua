@@ -2,5 +2,5 @@
 if #arg<3 then
   print("usage: lua "..arg[0].." obj_model intermediate_folder pc_folder")
 else
-  os.execute('/orions-zfs/software/blender-2.71/blender -b depth.blend -P depth_blender.py -- 200 200 4 '..arg[1]..' '..arg[2]..' '..arg[3])
+  os.execute('/orions-zfs/software/blender-2.71/blender -b depth.blend -P depth_blender.py -- 400 400 4 '..arg[1]..' '..arg[2]..' '..arg[3])
 end

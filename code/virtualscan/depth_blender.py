@@ -52,7 +52,7 @@ bpy.data.scenes[Scenename].render.resolution_y = res_y
 bpy.data.scenes[Scenename].render.use_stamp = 0
 bpy.data.scenes[Scenename].render.use_placeholder = True
 bpy.data.scenes[Scenename].render.use_overwrite = True
-bpy.context.scene.render.engine = "CYCLES" #"BLENDER_RENDER"
+bpy.context.scene.render.engine = "BLENDER_RENDER"
 
 
 bpy.data.scenes[0].node_tree.nodes[0].base_path = intermediate_folder+'/tmp_c1/'
@@ -60,8 +60,8 @@ bpy.data.scenes[0].node_tree.nodes[3].base_path = intermediate_folder+'/tmp_d1/'
 bpy.data.scenes[0].node_tree.nodes[11].base_path = intermediate_folder+'/tmp_n1/'
 
 
-#bpy.data.scenes[Scenename].cycles.samples = int(task_info_[5])
-bpy.data.scenes[Scenename].cycles.samples = 200
+# bpy.data.scenes[Scenename].cycles.samples = int(task_info_[5])
+# bpy.data.scenes[Scenename].cycles.samples = 200
 
 bpy.data.scenes[Scenename].render.use_antialiasing = True
 bpy.data.scenes[Scenename].render.use_full_sample = True
@@ -77,13 +77,6 @@ if bpy.data.objects[1].name != 'Camera' and bpy.data.objects[1].name != 'Point':
 	bpy.context.scene.objects.active = bpy.data.objects[1]
 	bpy.ops.object.join()
 	objid = 1
-
-"""
-if bpy.data.objects[2].name != 'Camera' and bpy.data.objects[2].name != 'Point':
-	bpy.context.scene.objects.active = bpy.data.objects[2]
-	bpy.ops.object.join()
-	objid = 2
-"""
 
 obj_name = os.path.splitext(os.path.basename(modelname))[0]
 
@@ -144,6 +137,7 @@ if os.path.isfile(result_folder+'/'+obj_name+'.off'):
 if os.path.isfile(result_folder+'/'+obj_name+'.normal'):
 	os.remove(result_folder+'/'+obj_name+'.normal')
 
+"""
 lightDist = 4
 for i in range(20):
     light_phi_deg = np.random.uniform(-90, 90)
@@ -153,7 +147,7 @@ for i in range(20):
 bpy.data.objects['Point'].data.energy = 5000
 for i in range(1,20):
 	bpy.data.objects['Point.%03d' % i].data.energy = 5000
-
+"""
 
 for i in range(1, 2 * num_cam + 1):
 	ui = math.asin(1 - float(2*i-1)/float(2*num_cam))
